@@ -11,9 +11,22 @@ Usage
 * The default code is `<span class="glyph [set-name]">letter</span>`, feel free to customize that to your needs.
 * Style the icons using any CSS style that could apply to text!
 
+Repo Contents
+=============
+* README
+* MIT-LICENSE
+* Foundation Icons - General
+* Foundation Icons - General(Enclosed)
+* Foundation Icons - Social
+
+ZURB
+====
+Foundation was made by [ZURB](http://www.zurb.com), an interaction design and design strategy firm in Campbell, CA.
+
+If Foundation knocks your socks off the way we hope it does and you want more, why not check out [our jobs](http://www.zurb.com/talent/jobs)?
+
 MIT Open Source License
 =======================
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
