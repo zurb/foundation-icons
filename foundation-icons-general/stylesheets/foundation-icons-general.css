@@ -11,7 +11,7 @@
 }
 
 /* global foundicon styles */
-[class^="foundicon-"], [class*=" foundicon-"] {
+[class*="foundicon-"] {
   display: inline;
   width: auto;
   height: auto;
@@ -21,11 +21,10 @@
   background-position: 0 0;
   background-repeat: repeat;
 }
-[class^="foundicon-"]:before, [class*=" foundicon-"]:before {
+[class*="foundicon-"]:before {
   font-family: 'FoundationIconsGeneral';
   font-weight: normal;
   font-style: normal;
-  display: inline-block;
   text-decoration: inherit;
 }
 
@@ -41,7 +40,7 @@
 .foundicon-mail:before            { content: "\f007"; }
 .foundicon-calendar:before        { content: "\f008"; }
 .foundicon-page:before            { content: "\f009"; }
-.foundicon-tools:before          { content: "\f00a"; }
+.foundicon-tools:before           { content: "\f00a"; }
 .foundicon-globe:before           { content: "\f00b"; }
 
 .foundicon-home:before            { content: "\f00c"; }
