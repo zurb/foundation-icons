@@ -1,31 +1,15 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
-<svg xmlns="http://www.w3.org/2000/svg">
-<metadata></metadata>
-<defs>
-<font id="accessibility_foundiconsRg" horiz-adv-x="512" >
-<font-face units-per-em="2048" ascent="2048" descent="0" />
-<missing-glyph horiz-adv-x="500" />
-<glyph horiz-adv-x="0" />
-<glyph unicode="&#xd;" />
-<glyph horiz-adv-x="0" />
-<glyph horiz-adv-x="0" />
-<glyph unicode=" " />
-<glyph unicode="~" horiz-adv-x="2048" />
-<glyph unicode="&#xa0;" />
-<glyph unicode="&#x2000;" horiz-adv-x="682" />
-<glyph unicode="&#x2001;" horiz-adv-x="1365" />
-<glyph unicode="&#x2002;" horiz-adv-x="682" />
-<glyph unicode="&#x2003;" horiz-adv-x="1365" />
-<glyph unicode="&#x2004;" horiz-adv-x="455" />
-<glyph unicode="&#x2005;" horiz-adv-x="341" />
-<glyph unicode="&#x2006;" horiz-adv-x="227" />
-<glyph unicode="&#x2007;" horiz-adv-x="227" />
-<glyph unicode="&#x2008;" horiz-adv-x="170" />
-<glyph unicode="&#x2009;" horiz-adv-x="273" />
-<glyph unicode="&#x200a;" horiz-adv-x="75" />
-<glyph unicode="&#x202f;" horiz-adv-x="273" />
-<glyph unicode="&#x205f;" horiz-adv-x="341" />
-<glyph unicode="&#xe000;" horiz-adv-x="1024" d="M0 0z" />
+<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" > <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+<defs >
+<font id="accessibilityfoundicons" horiz-adv-x="925" ><font-face
+    font-family="Accessibility Foundicons"
+    units-per-em="1000"
+    panose-1="0 0 0 0 0 0 0 0 0 0"
+    ascent="1000"
+    descent="0"
+    alphabetic="0" />
+<missing-glyph horiz-adv-x="250" />
+<glyph unicode=" " glyph-name="space" horiz-adv-x="250" />
+<glyph unicode="~" glyph-name="asciitilde" horiz-adv-x="1000" />
 </font>
-</defs></svg> 
+</defs>
+</svg>
