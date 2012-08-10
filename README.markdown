@@ -1,14 +1,14 @@
 Foundation Icon Font Sets
 =========================
-Custom icon sets that are stored in a handy web font. A couple lines of CSS and the right markup will get you going in no time.
+Custom icon sets that are stored in a handy web font. A couple lines of CSS and the right markup will get you going in no time. These icons use the Private Use Area Unicode slots to ensure full accessibility.
 
 We designed the glyphs to be refined enough to stand alone as a simple icon, but left room for the imagination. Since you’ll be dealing with a font, the opportunities are nearly limitless. Now your icons can be any size, any color and any style available in CSS.
 
 Usage
 =====
 * Download the icon font that you're interested in.
-* Merge the `fonts` and `stylesheets` folders into your Foundation project.
-* The default code is `<span class="glyph [set-name]">letter</span>`, feel free to customize that to your needs.
+* Merge the `fonts` and `stylesheets`, or `sass` if you are using it, folders into your Foundation project.
+* The default code is `<i class="foundicon-[icon]"></i>`, feel free to customize that to your needs.
 * Style the icons using any CSS style that could apply to text!
 
 Repo Contents
