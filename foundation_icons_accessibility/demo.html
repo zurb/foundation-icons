@@ -13,6 +13,7 @@
     .column, .columns { margin-left: 4.4%; float: left; min-height: 1px; position: relative; }
     .column:first-child, .columns:first-child { margin-left: 0; }
     .row .three { width: 21.67957%; }
+    .row .four { width: 25%; }
     .row .twelve { width: 100%; }
     /* Nicolas Gallagher's micro clearfix */
     .row:before, .row:after, .clearfix:before, .clearfix:after { content:""; display:table; }
@@ -24,42 +25,41 @@
     h4 { margin-bottom: 4px; }
     hr { border: solid 1px; border-color: #bbb transparent transparent transparent; }
     ul { list-style: none; overflow: hidden; margin-top: 20px; margin-bottom: 30px; }
-    ul li { font-size: 18px; margin-bottom: 16px; vertical-align: center; }
-    ul li.last-in-row { margin-right: 0; }
+    ul li { font-size: 28px; margin-bottom: 16px; vertical-align: center; }
 
     div.code { border: solid 1px #000; background: #444; border-radius: 3px; box-shadow: 0px 2px 10px rgba(0,0,0,1) inset; }
     div.code pre { color: #fff; padding: 5px 5px 5px 8px; }
     .class { color: #4DB9EE; }
     em { color: #aaa; }
 
-    [class*="foundicon-"]:after { position: relative; top: -3px; left: 10px; color: #888; font-size: 88%; font-style: normal; }
+    [class*="foundicon-"]:after { position: relative; top: -8px; left: 10px; color: #888; font-size: 60%; font-style: normal; }
 
-    .foundicon-wheelchair:after         { content: "Wheelchair"; }
-    .foundicon-speaker:after            { content: "Speaker"; }
-    .foundicon-fontsize:after           { content: "Font-size"; }
-    .foundicon-eject:after              { content: "Eject"; }
-    .foundicon-view-mode:after          { content: "View Mode"; }
-    .foundicon-eyeball:after            { content: "Eyeball"; }
-    .foundicon-asl:after                { content: "American Sign Language"; }
-    .foundicon-person:after             { content: "Person"; }
-    .foundicon-question:after           { content: "Question"; }
-    .foundicon-adult:after              { content: "Adult"; }
-    .foundicon-child:after              { content: "Child"; }
-    .foundicon-glasses:after            { content: "Glasses"; }
-    .foundicon-cc:after                 { content: "Closed Caption"; }
-    .foundicon-blind:after              { content: "Blind"; }
+    .foundicon-wheelchair:after         { content: "wheelchair"; }
+    .foundicon-speaker:after            { content: "speaker"; }
+    .foundicon-fontsize:after           { content: "fontsize"; }
+    .foundicon-eject:after              { content: "eject"; }
+    .foundicon-view-mode:after          { content: "view-mode"; }
+    .foundicon-eyeball:after            { content: "eyeball"; }
+    .foundicon-asl:after                { content: "asl"; }
+    .foundicon-person:after             { content: "person"; }
+    .foundicon-question:after           { content: "question"; }
+    .foundicon-adult:after              { content: "adult"; }
+    .foundicon-child:after              { content: "child"; }
+    .foundicon-glasses:after            { content: "glasses"; }
+    .foundicon-cc:after                 { content: "cc"; }
+    .foundicon-blind:after              { content: "blind"; }
     .foundicon-braille:after            { content: "Braille"; }
-    .foundicon-iphone-home:after        { content: "iPhone Home Button"; }
-    .foundicon-w3c:after                { content: "W3C Approved"; }
-    .foundicon-css:after                { content: "CSS Validated"; }
-    .foundicon-key:after                { content: "Key"; }
-    .foundicon-hearing-impaired:after   { content: "Hearing Impaired"; }
-    .foundicon-male:after               { content: "Male"; }
-    .foundicon-female:after             { content: "Female"; }
-    .foundicon-network:after            { content: "Network"; }
-    .foundicon-guidedog:after           { content: "Guide Dog"; }
-    .foundicon-universal-access:after   { content: "Universal Access"; }
-    .foundicon-elevator:after           { content: "Elevator"; }
+    .foundicon-iphone-home:after        { content: "iphone-home"; }
+    .foundicon-w3c:after                { content: "w3c"; }
+    .foundicon-css:after                { content: "css"; }
+    .foundicon-key:after                { content: "key"; }
+    .foundicon-hearing-impaired:after   { content: "hearing-impaired"; }
+    .foundicon-male:after               { content: "male"; }
+    .foundicon-female:after             { content: "female"; }
+    .foundicon-network:after            { content: "network"; }
+    .foundicon-guidedog:after           { content: "guidedog"; }
+    .foundicon-universal-access:after   { content: "universal-access"; }
+    .foundicon-elevator:after           { content: "elevator"; }
 
   </style>
 
@@ -81,39 +81,43 @@
 
     <div class="row">
 
-      <ul class="three columns">
+      <ul class="four columns">
         <li><i class="foundicon-wheelchair"></i></li>
         <li><i class="foundicon-speaker"></i></li>
         <li><i class="foundicon-fontsize"></i></li>
         <li><i class="foundicon-eject"></i></li>
         <li><i class="foundicon-view-mode"></i></li>
-        <li class="last-in-row"><i class="foundicon-eyeball"></i></li>
+        <li><i class="foundicon-eyeball"></i></li>
 
         <li><i class="foundicon-asl"></i></li>
         <li><i class="foundicon-person"></i></li>
         <li><i class="foundicon-question"></i></li>
-        <li><i class="foundicon-adult"></i></li>
-        <li><i class="foundicon-child"></i></li>
-        <li class="last-in-row"><i class="foundicon-glasses"></i></li>
+        
       </ul>
 
-      <ul class="three columns">
+      <ul class="four columns">
+        <li><i class="foundicon-adult"></i></li>
+        <li><i class="foundicon-child"></i></li>
+        <li><i class="foundicon-glasses"></i></li>
         <li><i class="foundicon-cc"></i></li>
         <li><i class="foundicon-blind"></i></li>
         <li><i class="foundicon-braille"></i></li>
         <li><i class="foundicon-iphone-home"></i></li>
         <li><i class="foundicon-w3c"></i></li>
-        <li class="last-in-row"><i class="foundicon-css"></i></li>
+        <li><i class="foundicon-css"></i></li>
 
+        
+        
+        
+      </ul>
+
+      <ul class="four columns">
         <li><i class="foundicon-key"></i></li>
         <li><i class="foundicon-hearing-impaired"></i></li>
         <li><i class="foundicon-male"></i></li>
         <li><i class="foundicon-female"></i></li>
         <li><i class="foundicon-network"></i></li>
-        <li class="last-in-row"><i class="foundicon-guidedog"></i></li>
-      </ul>
-
-      <ul class="three columns">
+        <li><i class="foundicon-guidedog"></i></li>
         <li><i class="foundicon-universal-access"></i></li>
         <li><i class="foundicon-elevator"></i></li>
       </ul>
