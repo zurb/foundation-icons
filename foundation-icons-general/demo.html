@@ -1,95 +1,190 @@
 <!DOCTYPE html>
 <head>
-	<meta charset="utf-8" />
-	<title>Foundation Icons - General</title>
-	<link rel="stylesheet" href="stylesheets/foundation-icons-general.css">
-	<style>
-	  * { margin: 0; padding: 0; }
-	  body { background: #eee; font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
-	  .container { padding: 40px; margin: 0 auto; width: 980px; background: #fff; }
-	  h1 { text-align: center; margin-bottom: 10px; font-size: 40px; }
-	  hr { border: solid 1px; border-color: #bbb transparent transparent transparent; }
-	  ul { list-style: none; margin-left: 24px; overflow: hidden; margin-top: 20px; }
-	  ul li { float: left; margin-bottom: 30px; margin-right: 68px; }
-	  ul li p { text-align: center; margin-top: 14px; color: #555; font-weight: bold; font-size: 18px; }
-	  ul li.last-in-row { margin-right: 0; }
+  <meta charset="utf-8" />
+  <title>Foundation Icons - General</title>
+  <link rel="stylesheet" href="stylesheets/foundation-icons-general.css">
+  <style>
 
-	  .glyph { cursor: default; font-size: 16px; line-height: 1; }
-	  .glyph.general { font-family: "FoundationIconsGeneral"; }
+    * { margin: 0; padding: 0; }
+    body { background: #ddd; font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
 
-	  ul li span { font-size: 56px !important; }
-	  div.code { background: #222; }
-	  div.code pre { color: #fff; padding: 30px; }
-	  .class { color: #0088ee; }
-	  em { color: #aaa; }
-	</style>
+    .row { width: 100%; max-width: 980px; min-width: 727px; margin: 0 auto; }
+    .row .row { min-width: 0; }
+    .column, .columns { margin-left: 4.4%; float: left; min-height: 1px; position: relative; }
+    .column:first-child, .columns:first-child { margin-left: 0; }
+    [class*="column"] + [class*="column"]:last-child { float: right; }
+    .row .three { width: 21.67957%; }
+    .row .twelve { width: 100%; }
+    /* Nicolas Gallagher's micro clearfix */
+    .row:before, .row:after, .clearfix:before, .clearfix:after { content:""; display:table; }
+    .row:after, .clearfix:after { clear: both; }
+    .row, .clearfix { zoom: 1; }
+
+    .container { padding: 40px; margin: 0 auto; width: 980px; background: #fff; }
+    h1 { margin-bottom: 10px; font-size: 40px; }
+    h4 { margin-bottom: 4px; }
+    hr { border: solid 1px; border-color: #bbb transparent transparent transparent; }
+    ul { list-style: none; overflow: hidden; margin-top: 20px; margin-bottom: 30px; }
+    ul li { font-size: 18px; margin-bottom: 16px; vertical-align: center; }
+    ul li.last-in-row { margin-right: 0; }
+
+    div.code { border: solid 1px #000; background: #444; border-radius: 3px; box-shadow: 0px 2px 10px rgba(0,0,0,1) inset; }
+    div.code pre { color: #fff; padding: 5px 5px 5px 8px; }
+    .class { color: #4DB9EE; }
+    em { color: #aaa; }
+
+    [class*="foundicon-"]:after { position: relative; top: -3px; left: 10px; color: #888; font-size: 88%; font-style: normal; }
+
+    .foundicon-settings:after        { content: "Settings"; }
+    .foundicon-heart:after           { content: "Heart"; }
+    .foundicon-star:after            { content: "Star"; }
+    .foundicon-plus:after            { content: "Plus"; }
+    .foundicon-minus:after           { content: "Minus"; }
+    .foundicon-checkmark:after       { content: "Checkmark"; }
+
+    .foundicon-remove:after          { content: "Remove"; }
+    .foundicon-mail:after            { content: "Mail"; }
+    .foundicon-calendar:after        { content: "Calendar"; }
+    .foundicon-page:after            { content: "Page"; }
+    .foundicon-tools:after           { content: "Tools"; }
+    .foundicon-globe:after           { content: "Globe"; }
+
+    .foundicon-home:after            { content: "Home"; }
+    .foundicon-quote:after           { content: "Quote"; }
+    .foundicon-people:after          { content: "People"; }
+    .foundicon-monitor:after         { content: "Monitor"; }
+    .foundicon-laptop:after          { content: "Laptop"; }
+    .foundicon-phone:after           { content: "Phone"; }
+
+    .foundicon-cloud:after           { content: "Cloud"; }
+    .foundicon-error:after           { content: "Error"; }
+    .foundicon-right-arrow:after     { content: "Right Arrow"; }
+    .foundicon-left-arrow:after      { content: "Left Arrow"; }
+    .foundicon-up-arrow:after        { content: "Up Arrow"; }
+    .foundicon-down-arrow:after      { content: "Down Arrow"; }
+
+    .foundicon-trash:after           { content: "Trash"; }
+    .foundicon-add-doc:after         { content: "Add Document"; }
+    .foundicon-edit:after            { content: "Edit"; }
+    .foundicon-lock:after            { content: "Lock"; }
+    .foundicon-unlock:after          { content: "Unlock"; }
+    .foundicon-refresh:after         { content: "Refresh"; }
+
+    .foundicon-paper-clip:after      { content: "Paper Clip"; }
+    .foundicon-video:after           { content: "Video"; }
+    .foundicon-photo:after           { content: "Photo"; }
+    .foundicon-graph:after           { content: "Graph"; }
+    .foundicon-idea:after            { content: "Idea"; }
+    .foundicon-mic:after             { content: "Microphone"; }
+
+    .foundicon-cart:after            { content: "Cart"; }
+    .foundicon-address-book:after    { content: "Address Book"; }
+    .foundicon-compass:after         { content: "Compass"; }
+    .foundicon-flag:after            { content: "Flag"; }
+    .foundicon-location:after        { content: "Location"; }
+    .foundicon-clock:after           { content: "Clock"; }
+
+    .foundicon-folder:after          { content: "Folder"; }
+    .foundicon-inbox:after           { content: "Inbox"; }
+    .foundicon-website:after         { content: "Website"; }
+    .foundicon-smiley:after          { content: "Smiley"; }
+    .foundicon-search:after          { content: "Search"; }
+
+  </style>
+
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/foundation-icons-general-ie7.css">
+  <![endif]-->
+
+
+  </style>
 </head>
 <body>
+
+  <!-- Original Implementation -->
   <div class="container">
-    <h1>Foundation Icons - General</h1>
-    <hr>
-    <ul>
-      <li><span class="glyph general">a</span><p>a</p></li>
-      <li><span class="glyph general">b</span><p>b</p></li>
-      <li><span class="glyph general">c</span><p>c</p></li>
-      <li><span class="glyph general">d</span><p>d</p></li>
-      <li><span class="glyph general">e</span><p>e</p></li>
-      <li><span class="glyph general">f</span><p>f</p></li>
-      <li><span class="glyph general">g</span><p>g</p></li>
-      <li class="last-in-row"><span class="glyph general">h</span><p>h</p></li>
+    <div class="row">
+      <div class="twelve columns">
+        <h1>Foundation Icons - General</h1>
+      </div>
+    </div>
 
-      <li><span class="glyph general">i</span><p>i</p></li>
-      <li><span class="glyph general">j</span><p>j</p></li>
-      <li><span class="glyph general">k</span><p>k</p></li>
-      <li><span class="glyph general">l</span><p>l</p></li>
-      <li><span class="glyph general">m</span><p>m</p></li>
-      <li><span class="glyph general">n</span><p>n</p></li>
-      <li><span class="glyph general">o</span><p>o</p></li>
-      <li class="last-in-row"><span class="glyph general">p</span><p>p</p></li>
+    <div class="row">
 
-      <li><span class="glyph general">q</span><p>q</p></li>
-      <li><span class="glyph general">r</span><p>r</p></li>
-      <li><span class="glyph general">s</span><p>s</p></li>
-      <li><span class="glyph general">t</span><p>t</p></li>
-      <li><span class="glyph general">u</span><p>u</p></li>
-      <li><span class="glyph general">v</span><p>v</p></li>
-      <li><span class="glyph general">w</span><p>w</p></li>
-      <li class="last-in-row"><span class="glyph general">x</span><p>x</p></li>
+      <ul class="three columns">
+        <li><i class="button foundicon-settings"></i></li>
+        <li><i class="foundicon-heart"></i></li>
+        <li><i class="foundicon-star"></i></li>
+        <li><i class="foundicon-plus"></i></li>
+        <li><i class="foundicon-minus"></i></li>
+        <li class="last-in-row"><i class="foundicon-checkmark"></i></li>
 
-      <li><span class="glyph general">y</span><p>y</p></li>
-      <li><span class="glyph general">z</span><p>z</p></li>
-      <li><span class="glyph general">`</span><p>`</p></li>
-      <li><span class="glyph general">1</span><p>1</p></li>
-      <li><span class="glyph general">2</span><p>2</p></li>
-      <li><span class="glyph general">3</span><p>3</p></li>
-      <li><span class="glyph general">4</span><p>4</p></li>
-      <li class="last-in-row"><span class="glyph general">5</span><p>5</p></li>
+        <li><i class="foundicon-remove"></i></li>
+        <li><i class="foundicon-mail"></i></li>
+        <li><i class="foundicon-calendar"></i></li>
+        <li><i class="foundicon-page"></i></li>
+        <li><i class="foundicon-tools"></i></li>
+        <li class="last-in-row"><i class="foundicon-globe"></i></li>
+      </ul>
 
-      <li><span class="glyph general">6</span><p>6</p></li>
-      <li><span class="glyph general">7</span><p>7</p></li>
-      <li><span class="glyph general">8</span><p>8</p></li>
-      <li><span class="glyph general">9</span><p>9</p></li>
-      <li><span class="glyph general">0</span><p>0</p></li>
-      <li><span class="glyph general">-</span><p>-</p></li>
-      <li><span class="glyph general">=</span><p>=</p></li>
-      <li class="last-in-row"><span class="glyph general">[</span><p>[</p></li>
+      <ul class="three columns">
+        <li><i class="foundicon-home"></i></li>
+        <li><i class="foundicon-quote"></i></li>
+        <li><i class="foundicon-people"></i></li>
+        <li><i class="foundicon-monitor"></i></li>
+        <li><i class="foundicon-laptop"></i></li>
+        <li class="last-in-row"><i class="foundicon-phone"></i></li>
 
-      <li><span class="glyph general">]</span><p>]</p></li>
-      <li><span class="glyph general">\</span><p>\</p></li>
-      <li><span class="glyph general">;</span><p>;</p></li>
-      <li><span class="glyph general">'</span><p>'</p></li>
-      <li><span class="glyph general">,</span><p>,</p></li>
-      <li><span class="glyph general">.</span><p>.</p></li>
-      <li><span class="glyph general">/</span><p>/</p></li>
-    </ul>
+        <li><i class="foundicon-cloud"></i></li>
+        <li><i class="foundicon-error"></i></li>
+        <li><i class="foundicon-right-arrow"></i></li>
+        <li><i class="foundicon-left-arrow"></i></li>
+        <li><i class="foundicon-up-arrow"></i></li>
+        <li class="last-in-row"><i class="foundicon-down-arrow"></i></li>
+      </ul>
 
-    <hr>
-    <br>
-    <h4>Here's the code:</h4>
-    <div class="code">
+      <ul class="three columns">
+        <li><i class="foundicon-trash"></i></li>
+        <li><i class="foundicon-add-doc"></i></li>
+        <li><i class="foundicon-edit"></i></li>
+        <li><i class="foundicon-lock"></i></li>
+        <li><i class="foundicon-unlock"></i></li>
+        <li class="last-in-row"><i class="foundicon-refresh"></i></li>
+
+        <li><i class="foundicon-paper-clip"></i></li>
+        <li><i class="foundicon-video"></i></li>
+        <li><i class="foundicon-photo"></i></li>
+        <li><i class="foundicon-graph"></i></li>
+        <li><i class="foundicon-idea"></i></li>
+        <li class="last-in-row"><i class="foundicon-mic"></i></li>
+      </ul>
+
+      <ul class="three columns">
+        <li><i class="foundicon-cart"></i></li>
+        <li><i class="foundicon-address-book"></i></li>
+        <li><i class="foundicon-compass"></i></li>
+        <li><i class="foundicon-flag"></i></li>
+        <li><i class="foundicon-location"></i></li>
+        <li class="last-in-row"><i class="foundicon-clock"></i></li>
+
+        <li><i class="foundicon-folder"></i></li>
+        <li><i class="foundicon-inbox"></i></li>
+        <li><i class="foundicon-website"></i></li>
+        <li><i class="foundicon-smiley"></i></li>
+        <li><i class="foundicon-search"></i></li>
+      </ul>
+
+    </div>
+
+    <div class="row">
+      <div class="twelve columns">
+        <h4>Here's the code:</h4>
+        <div class="code">
 <pre>
-  &lt;span class="<span class="class">glyph general</span>"&gt;<em>letter</em>&lt;/span&gt;
+&lt;i class="<span class="class">foundicon-[icon]</span>"&gt;&lt;/i&gt;
 </pre>
+        </div>
+      </div>
     </div>
   </div>
 </body>
