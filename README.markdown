@@ -18,6 +18,7 @@ Repo Contents
 * Foundation Icons - General
 * Foundation Icons - General(Enclosed)
 * Foundation Icons - Social
+* Foundation Icons - Accessibility
 
 ZURB
 ====
