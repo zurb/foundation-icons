@@ -1,8 +1,8 @@
 /* font-face */
 @font-face {
-  font-family: "Socialsocialicons";
-  src: url("../fonts/social_socialicons.eot");
-  src: url("../fonts/social_socialicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_socialicons.woff") format("woff"), url("../fonts/social_socialicons.ttf") format("truetype"), url("../fonts/social_socialicons.svg#Socialsocialicons") format("svg");
+  font-family: "SocialFoundicons";
+  src: url("../fonts/social_foundicons.eot");
+  src: url("../fonts/social_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/social_foundicons.woff") format("woff"), url("../fonts/social_foundicons.ttf") format("truetype"), url("../fonts/social_foundicons.svg#SocialFoundicons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -20,7 +20,7 @@
 }
 
 [class*="socialicon-"]:before {
-  font-family: "Socialsocialicons";
+  font-family: "SocialFoundicons";
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
