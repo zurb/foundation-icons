@@ -1,126 +1,126 @@
 /* general icons for IE7 */
-[class*="foundicon-"] {
-  font-family: "SocialFoundicons";
+[class*="socialicon-"] {
+  font-family: "Socialsocialicons";
   font-weight: normal;
   font-style: normal;
 }
 
-.foundicon-thumb-up {
+.socialicon-thumb-up {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
 }
 
-.foundicon-thumb-down {
+.socialicon-thumb-down {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
 }
 
-.foundicon-rss {
+.socialicon-rss {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
 }
 
-.foundicon-facebook {
+.socialicon-facebook {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
 }
 
-.foundicon-twitter {
+.socialicon-twitter {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
 }
 
-.foundicon-pinterest {
+.socialicon-pinterest {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
 }
 
-.foundicon-github {
+.socialicon-github {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
 }
 
-.foundicon-path {
+.socialicon-path {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
 }
 
-.foundicon-linkedin {
+.socialicon-linkedin {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
 }
 
-.foundicon-dribbble {
+.socialicon-dribbble {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
 }
 
-.foundicon-stumble-upon {
+.socialicon-stumble-upon {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
 }
 
-.foundicon-behance {
+.socialicon-behance {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
 }
 
-.foundicon-reddit {
+.socialicon-reddit {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
 }
 
-.foundicon-google-plus {
+.socialicon-google-plus {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
 }
 
-.foundicon-youtube {
+.socialicon-youtube {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
 }
 
-.foundicon-vimeo {
+.socialicon-vimeo {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
 }
 
-.foundicon-flickr {
+.socialicon-flickr {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
 }
 
-.foundicon-slideshare {
+.socialicon-slideshare {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
 }
 
-.foundicon-picassa {
+.socialicon-picassa {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
 }
 
-.foundicon-skype {
+.socialicon-skype {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
 }
 
-.foundicon-steam {
+.socialicon-steam {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
 }
 
-.foundicon-instagram {
+.socialicon-instagram {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
 }
 
-.foundicon-foursquare {
+.socialicon-foursquare {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
 }
 
-.foundicon-delicious {
+.socialicon-delicious {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
 }
 
-.foundicon-chat {
+.socialicon-chat {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
 }
 
-.foundicon-torso {
+.socialicon-torso {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
 }
 
-.foundicon-tumblr {
+.socialicon-tumblr {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
 }
 
-.foundicon-video-chat {
+.socialicon-video-chat {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
 }
 
-.foundicon-digg {
+.socialicon-digg {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
 }
 
-.foundicon-wordpress {
+.socialicon-wordpress {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
 }

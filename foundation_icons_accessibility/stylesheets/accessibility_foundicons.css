@@ -1,14 +1,14 @@
 /* font-face */
 @font-face {
-  font-family: "AccessibilityFoundicons";
-  src: url("../fonts/accessibility_foundicons.eot");
-  src: url("../fonts/accessibility_foundicons.eot?#iefix") format("embedded-opentype"), url("../fonts/accessibility_foundicons.woff") format("woff"), url("../fonts/accessibility_foundicons.ttf") format("truetype"), url("../fonts/accessibility_foundicons.svg#AccessibilityFoundicons") format("svg");
+  font-family: "Accessibilityaccessibilityicons";
+  src: url("../fonts/accessibility_accessibilityicons.eot");
+  src: url("../fonts/accessibility_accessibilityicons.eot?#iefix") format("embedded-opentype"), url("../fonts/accessibility_accessibilityicons.woff") format("woff"), url("../fonts/accessibility_accessibilityicons.ttf") format("truetype"), url("../fonts/accessibility_accessibilityicons.svg#Accessibilityaccessibilityicons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-/* global foundicon styles */
-[class*="foundicon-"] {
+/* global accessibilityicon styles */
+[class*="accessibilityicon-"] {
   display: inline;
   width: auto;
   height: auto;
@@ -19,114 +19,114 @@
   background-repeat: repeat;
 }
 
-[class*="foundicon-"]:before {
-  font-family: "AccessibilityFoundicons";
+[class*="accessibilityicon-"]:before {
+  font-family: "Accessibilityaccessibilityicons";
   font-weight: normal;
   font-style: normal;
   text-decoration: inherit;
 }
 
 /* icons */
-.foundicon-wheelchair:before {
+.accessibilityicon-wheelchair:before {
   content: "\f000";
 }
 
-.foundicon-speaker:before {
+.accessibilityicon-speaker:before {
   content: "\f001";
 }
 
-.foundicon-fontsize:before {
+.accessibilityicon-fontsize:before {
   content: "\f002";
 }
 
-.foundicon-eject:before {
+.accessibilityicon-eject:before {
   content: "\f003";
 }
 
-.foundicon-view-mode:before {
+.accessibilityicon-view-mode:before {
   content: "\f004";
 }
 
-.foundicon-eyeball:before {
+.accessibilityicon-eyeball:before {
   content: "\f005";
 }
 
-.foundicon-asl:before {
+.accessibilityicon-asl:before {
   content: "\f006";
 }
 
-.foundicon-person:before {
+.accessibilityicon-person:before {
   content: "\f007";
 }
 
-.foundicon-question:before {
+.accessibilityicon-question:before {
   content: "\f008";
 }
 
-.foundicon-adult:before {
+.accessibilityicon-adult:before {
   content: "\f009";
 }
 
-.foundicon-child:before {
+.accessibilityicon-child:before {
   content: "\f00a";
 }
 
-.foundicon-glasses:before {
+.accessibilityicon-glasses:before {
   content: "\f00b";
 }
 
-.foundicon-cc:before {
+.accessibilityicon-cc:before {
   content: "\f00c";
 }
 
-.foundicon-blind:before {
+.accessibilityicon-blind:before {
   content: "\f00d";
 }
 
-.foundicon-braille:before {
+.accessibilityicon-braille:before {
   content: "\f00e";
 }
 
-.foundicon-iphone-home:before {
+.accessibilityicon-iphone-home:before {
   content: "\f00f";
 }
 
-.foundicon-w3c:before {
+.accessibilityicon-w3c:before {
   content: "\f010";
 }
 
-.foundicon-css:before {
+.accessibilityicon-css:before {
   content: "\f011";
 }
 
-.foundicon-key:before {
+.accessibilityicon-key:before {
   content: "\f012";
 }
 
-.foundicon-hearing-impaired:before {
+.accessibilityicon-hearing-impaired:before {
   content: "\f013";
 }
 
-.foundicon-male:before {
+.accessibilityicon-male:before {
   content: "\f014";
 }
 
-.foundicon-female:before {
+.accessibilityicon-female:before {
   content: "\f015";
 }
 
-.foundicon-network:before {
+.accessibilityicon-network:before {
   content: "\f016";
 }
 
-.foundicon-guidedog:before {
+.accessibilityicon-guidedog:before {
   content: "\f017";
 }
 
-.foundicon-universal-access:before {
+.accessibilityicon-universal-access:before {
   content: "\f018";
 }
 
-.foundicon-elevator:before {
+.accessibilityicon-elevator:before {
   content: "\f019";
 }
