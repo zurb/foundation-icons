@@ -8,6 +8,7 @@ Usage
 =====
 * Download the icon font that you're interested in.
 * Merge the `fonts` and `stylesheets`, or `sass` if you are using it, folders into your Foundation project.
+  You can use the deploy script to merge easily.
 * The default code is `<i class="foundicon-[icon]"></i>`, feel free to customize that to your needs.
 * Style the icons using any CSS style that could apply to text!
 
@@ -19,6 +20,21 @@ Repo Contents
 * Foundation Icons - General(Enclosed)
 * Foundation Icons - Social
 * Foundation Icons - Accessibility
+
+The deploy script
+=================
+**deploy** is a script to copy Foundation icons resources to your project tree.
+
+Usage: `./deploy <folder> [set]`
+
+Arguments:
+----------
+
+    folder: the folder of a Foundation project
+            The files will be copied in /fonts and /stylesheets subfolders.
+
+    set:    the set to deploy (accessibility, general, general_enclosed or social)
+            If omitted, deploy all the sets.
 
 ZURB
 ====
