@@ -21,7 +21,7 @@ Repo Contents
 * Foundation Icons - Social
 * Foundation Icons - Accessibility
 * Photoshop CS 5.5 File with all icons for easy copying
-* Illustrator CS 5.5 File with all icons for easy copying (_can also be used with Acrobat & Preview_)
+* Illustrator CS 5.5 File with all icons for easy copying (can also be used with Acrobat & Preview)
 
 ZURB
 ====
