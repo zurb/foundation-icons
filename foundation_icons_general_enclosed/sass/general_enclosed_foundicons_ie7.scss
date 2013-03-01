@@ -1,7 +1,7 @@
 @import "settings";
 
 /* general icons for IE7 */
-[class*="#{$classPrefix}"] {
+[class*="general-enclosed #{$classPrefix}"] {
   font-family: $fontName;
   font-weight: normal;
   font-style: normal;

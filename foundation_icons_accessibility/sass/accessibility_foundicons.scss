@@ -14,7 +14,7 @@
   background-position: 0 0;
   background-repeat: repeat;
 }
-[class*="#{$classPrefix}"]:before {
+[class*="accessibility #{$classPrefix}"]:before {
   font-family: $fontName;
   font-weight: normal;
   font-style: normal;
