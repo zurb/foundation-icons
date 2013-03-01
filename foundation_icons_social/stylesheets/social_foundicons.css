@@ -19,7 +19,7 @@
   background-repeat: repeat;
 }
 
-[class*="foundicon-"]:before {
+[class*="social foundicon-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;
   font-style: normal;

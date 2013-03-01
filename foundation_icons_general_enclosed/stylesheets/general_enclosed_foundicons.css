@@ -19,7 +19,7 @@
   background-repeat: repeat;
 }
 
-[class*="foundicon-"]:before {
+[class*="general-enclosed foundicon-"]:before {
   font-family: "GeneralEnclosedFoundicons";
   font-weight: normal;
   font-style: normal;

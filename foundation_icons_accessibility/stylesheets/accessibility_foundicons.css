@@ -19,7 +19,7 @@
   background-repeat: repeat;
 }
 
-[class*="foundicon-"]:before {
+[class*="accessibility foundicon-"]:before {
   font-family: "AccessibilityFoundicons";
   font-weight: normal;
   font-style: normal;
