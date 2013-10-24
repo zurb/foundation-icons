@@ -1,6 +1,6 @@
 $fontFileName: "../fonts/general_enclosed_foundicons";
 $fontName: "GeneralEnclosedFoundicons";
-$classPrefix: "foundicon-";
+$classPrefix: "foundicon-enclosed-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 
