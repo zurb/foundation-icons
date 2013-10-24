@@ -8,7 +8,7 @@ Usage
 =====
 * Download the icon font that you're interested in.
 * Merge the `fonts` and `stylesheets`, or `sass` if you are using it, folders into your Foundation project.
-* The default code is `<i class="foundicon-[icon]"></i>`, feel free to customize that to your needs.
+* The default code is `<i class="foundicon-[set]-[icon]"></i>`, feel free to customize that to your needs.
 * Style the icons using any CSS style that could apply to text!
 
 Repo Contents

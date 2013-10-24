@@ -1,6 +1,6 @@
 $fontFileName: "../fonts/accessibility_foundicons";
 $fontName: "AccessibilityFoundicons";
-$classPrefix: "foundicon-";
+$classPrefix: "foundicon-accessibility-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 

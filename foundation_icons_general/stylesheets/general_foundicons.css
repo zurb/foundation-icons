@@ -8,7 +8,7 @@
 }
 
 /* global foundicon styles */
-[class*="foundicon-"] {
+[class*="foundicon-general-"] {
   display: inline;
   width: auto;
   height: auto;
@@ -19,7 +19,7 @@
   background-repeat: repeat;
 }
 
-[class*="foundicon-"]:before {
+[class*="foundicon-general-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: normal;
   font-style: normal;
@@ -27,190 +27,190 @@
 }
 
 /* icons */
-.foundicon-settings:before {
+.foundicon-general-settings:before {
   content: "\f000";
 }
 
-.foundicon-heart:before {
+.foundicon-general-heart:before {
   content: "\f001";
 }
 
-.foundicon-star:before {
+.foundicon-general-star:before {
   content: "\f002";
 }
 
-.foundicon-plus:before {
+.foundicon-general-plus:before {
   content: "\f003";
 }
 
-.foundicon-minus:before {
+.foundicon-general-minus:before {
   content: "\f004";
 }
 
-.foundicon-checkmark:before {
+.foundicon-general-checkmark:before {
   content: "\f005";
 }
 
-.foundicon-remove:before {
+.foundicon-general-remove:before {
   content: "\f006";
 }
 
-.foundicon-mail:before {
+.foundicon-general-mail:before {
   content: "\f007";
 }
 
-.foundicon-calendar:before {
+.foundicon-general-calendar:before {
   content: "\f008";
 }
 
-.foundicon-page:before {
+.foundicon-general-page:before {
   content: "\f009";
 }
 
-.foundicon-tools:before {
+.foundicon-general-tools:before {
   content: "\f00a";
 }
 
-.foundicon-globe:before {
+.foundicon-general-globe:before {
   content: "\f00b";
 }
 
-.foundicon-home:before {
+.foundicon-general-home:before {
   content: "\f00c";
 }
 
-.foundicon-quote:before {
+.foundicon-general-quote:before {
   content: "\f00d";
 }
 
-.foundicon-people:before {
+.foundicon-general-people:before {
   content: "\f00e";
 }
 
-.foundicon-monitor:before {
+.foundicon-general-monitor:before {
   content: "\f00f";
 }
 
-.foundicon-laptop:before {
+.foundicon-general-laptop:before {
   content: "\f010";
 }
 
-.foundicon-phone:before {
+.foundicon-general-phone:before {
   content: "\f011";
 }
 
-.foundicon-cloud:before {
+.foundicon-general-cloud:before {
   content: "\f012";
 }
 
-.foundicon-error:before {
+.foundicon-general-error:before {
   content: "\f013";
 }
 
-.foundicon-right-arrow:before {
+.foundicon-general-right-arrow:before {
   content: "\f014";
 }
 
-.foundicon-left-arrow:before {
+.foundicon-general-left-arrow:before {
   content: "\f015";
 }
 
-.foundicon-up-arrow:before {
+.foundicon-general-up-arrow:before {
   content: "\f016";
 }
 
-.foundicon-down-arrow:before {
+.foundicon-general-down-arrow:before {
   content: "\f017";
 }
 
-.foundicon-trash:before {
+.foundicon-general-trash:before {
   content: "\f018";
 }
 
-.foundicon-add-doc:before {
+.foundicon-general-add-doc:before {
   content: "\f019";
 }
 
-.foundicon-edit:before {
+.foundicon-general-edit:before {
   content: "\f01a";
 }
 
-.foundicon-lock:before {
+.foundicon-general-lock:before {
   content: "\f01b";
 }
 
-.foundicon-unlock:before {
+.foundicon-general-unlock:before {
   content: "\f01c";
 }
 
-.foundicon-refresh:before {
+.foundicon-general-refresh:before {
   content: "\f01d";
 }
 
-.foundicon-paper-clip:before {
+.foundicon-general-paper-clip:before {
   content: "\f01e";
 }
 
-.foundicon-video:before {
+.foundicon-general-video:before {
   content: "\f01f";
 }
 
-.foundicon-photo:before {
+.foundicon-general-photo:before {
   content: "\f020";
 }
 
-.foundicon-graph:before {
+.foundicon-general-graph:before {
   content: "\f021";
 }
 
-.foundicon-idea:before {
+.foundicon-general-idea:before {
   content: "\f022";
 }
 
-.foundicon-mic:before {
+.foundicon-general-mic:before {
   content: "\f023";
 }
 
-.foundicon-cart:before {
+.foundicon-general-cart:before {
   content: "\f024";
 }
 
-.foundicon-address-book:before {
+.foundicon-general-address-book:before {
   content: "\f025";
 }
 
-.foundicon-compass:before {
+.foundicon-general-compass:before {
   content: "\f026";
 }
 
-.foundicon-flag:before {
+.foundicon-general-flag:before {
   content: "\f027";
 }
 
-.foundicon-location:before {
+.foundicon-general-location:before {
   content: "\f028";
 }
 
-.foundicon-clock:before {
+.foundicon-general-clock:before {
   content: "\f029";
 }
 
-.foundicon-folder:before {
+.foundicon-general-folder:before {
   content: "\f02a";
 }
 
-.foundicon-inbox:before {
+.foundicon-general-inbox:before {
   content: "\f02b";
 }
 
-.foundicon-website:before {
+.foundicon-general-website:before {
   content: "\f02c";
 }
 
-.foundicon-smiley:before {
+.foundicon-general-smiley:before {
   content: "\f02d";
 }
 
-.foundicon-search:before {
+.foundicon-general-search:before {
   content: "\f02e";
 }
