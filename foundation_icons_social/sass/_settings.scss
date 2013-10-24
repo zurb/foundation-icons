@@ -1,6 +1,6 @@
 $fontFileName: "../fonts/social_foundicons";
 $fontName: "SocialFoundicons";
-$classPrefix: "foundicon-";
+$classPrefix: "foundicon-social-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 
