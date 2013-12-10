@@ -1,21 +1,21 @@
-$fontFileName: "../fonts/general_foundicons";
-$fontName: "GeneralFoundicons";
-$classPrefix: "foundicon-";
+$fontFileName: "../fonts/general_foundicons" !default;
+$fontName: "GeneralFoundicons" !default;
+$classPrefix: "foundicon-" !default;
 
 @mixin i-class($name,$pua) {
-  .#{$classPrefix}#{$name}:before { 
+  .#{$classPrefix}#{$name}:before {
     content: "\f#{$pua}";
   }
 }
 
 @mixin ie-class($name,$pua) {
-  .#{$classPrefix}#{$name} { 
-    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  .#{$classPrefix}#{$name} {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};");
   }
 }
 
 @mixin face {
-  @font-face { 
+  @font-face {
     font-family: $fontName;
     src: url('#{$fontFileName}.eot');
     src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
