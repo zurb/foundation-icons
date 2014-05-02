@@ -146,3 +146,23 @@
 .foundicon-wordpress:before {
   content: "\f01d";
 }
+
+/* Sizes */
+
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-36 { font-size: 36px; }
+.size-48 { font-size: 48px; }
+.size-60 { font-size: 60px; }
+.size-72 { font-size: 72px; }
+.size-102 { font-size: 102px; }
+
+i.medium { font-size: 48px;}
+i.large { font-size: 72px;}
+i.xlarge { font-size: 102px;}
+      
+      
