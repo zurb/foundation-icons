@@ -10,6 +10,7 @@ Usage
 * Merge the `fonts` and `stylesheets`, or `sass` if you are using it, folders into your Foundation project.
 * The default code is `<i class="foundicon-[icon]"></i>`, feel free to customize that to your needs.
 * Style the icons using any CSS style that could apply to text!
+* Copy and paste files from Photoshop and Illustrator [PDF support enabled!]
 
 Repo Contents
 =============
@@ -19,6 +20,8 @@ Repo Contents
 * Foundation Icons - General(Enclosed)
 * Foundation Icons - Social
 * Foundation Icons - Accessibility
+* Photoshop CS 5.5 File with all icons for easy copying
+* Illustrator CS 5.5 File with all icons for easy copying (can also be used with Acrobat & Preview)
 
 ZURB
 ====
