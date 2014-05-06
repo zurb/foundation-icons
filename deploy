@@ -1,0 +1,53 @@
+#!/bin/sh
+#
+# Deployment script for Foundation icons
+#
+# TODO: use getopts to parse flags, allowing more options (see below)
+# TODO: add a flag to deploy SASS instead of stylesheet (STYLESHEETS=sass)
+# TODO: add a flag to preserve (cp -n) existing files
+#
+
+# Parses arguments
+if [ $# -lt 1 ] || [ $# -gt 2 ]; then
+	echo "Usage: $0 <Foundation project folder> [set]"
+	exit 1
+elif [ $1 = "--help" ] || [ $1 = "-h" ]; then
+	echo "deploy is a script to copy Foundation icons resources to your project tree."
+	echo ""
+	echo "Usage: $0 <folder> [set]"
+	echo ""
+	echo "Arguments:"
+	echo "    folder: the folder of a Foundation project"
+        echo "            The files will be copied in /fonts and /stylesheets subfolders."
+	echo ""
+	echo "    set:    the set to deploy (accessibility, general, general_enclosed or social)"
+	echo "            If omitted, deploy all the sets."
+	exit
+elif [ -d "$1" ]; then
+	TARGET=$1
+	if [ $# -eq 2 ] && [ $2 != "all" ]; then
+		if [ -d "foundation_icons_$2" ]; then
+			SET=$2
+		else
+			echo "Set not found: foundation_icons_$2"
+			exit 1
+		fi
+	else
+		SET=all
+	fi
+else
+	echo "$1 isn't a valid folder."
+	exit 1
+fi
+
+# Deploys
+STYLESHEETS=stylesheets
+mkdir -p $TARGET/fonts
+mkdir -p $TARGET/$STYLESHEETS
+if [ $SET = "all" ]; then
+	cp */fonts/* $TARGET/fonts
+	cp */$STYLESHEETS/* $TARGET/$STYLESHEETS
+else
+	cp foundation_icons_$SET/fonts/* $TARGET/fonts
+	cp foundation_icons_$SET/$STYLESHEETS/* $TARGET/$STYLESHEETS
+fi
